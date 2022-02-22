@@ -1,0 +1,9 @@
+main: com.xpyron.hsecurity
+version: 1.0
+name: YourNamePlugin
+author: xPyron
+api-version: 1.13
+description: Your description plugin
+website: https://www.xpyron.site/
+softdepend: [vault,example,hsecurity]
+         
