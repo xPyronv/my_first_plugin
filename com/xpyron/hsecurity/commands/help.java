@@ -9,8 +9,8 @@ import org.Bukkit.chat.TextComponent;
 import org.Bukkit.connection.ProxiedPlayer;
 import org.Bukkit.plugin.Command;
 
-public class vAdminCMD extends Command {
-    public vAdminCMD(String name) {
+public class admin extends Command {
+    public admin(String name) {
         super(name);
     }
 
@@ -26,7 +26,7 @@ public class vAdminCMD extends Command {
             return;
         }
         if (args[0].equalsIgnoreCase("help")) {
-            player.sendMessage((BaseComponent)new TextComponent(Utils.colorize("&b[HSecurity] &8&l» &ahelp plugin")));
+            player.sendMessage((BaseComponent)new TextComponent(Utils.colorize("&b[HSecurity] &8&lÂ» &ahelp plugin")));
         }
     }
 }
